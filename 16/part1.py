@@ -82,7 +82,7 @@ for sample in SAMPLES:
 	for opcode in OPCODES:
 		registers = list(sample.input)
 		opcode.eval(*sample.op[1:], registers)
-		if all([i == j for i, j in zip(registers, sample.output)]):
+		if registers == sample.output:
 			matching_opcodes_count += 1
 			if matching_opcodes_count >= 3:
 				break

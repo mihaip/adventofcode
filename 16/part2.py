@@ -28,8 +28,8 @@ class Opcode:
 			return
 		registers = list(sample.input)
 		self.eval(input_a, input_b, reg_c, registers)
-		if not all([i == j for i, j in zip(registers, sample.output)]):
-			self.possible_encodings.remove(sample.op[0])		
+		if registers != sample.output:
+			self.possible_encodings.remove(sample.op[0])
 
 OPCODES = [
 	# Addition
