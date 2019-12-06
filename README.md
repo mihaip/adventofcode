@@ -1,1 +1,1 @@
-My [Advent of Code 2018](https://adventofcode.com/2018) solutions.
+My [Advent of Code](https://adventofcode.com/) solutions.
