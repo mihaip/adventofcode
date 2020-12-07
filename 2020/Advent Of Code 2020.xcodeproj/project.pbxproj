@@ -11,6 +11,8 @@
 		91FE5599257D586B00A0E42D /* 01-part2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FE5598257D586B00A0E42D /* 01-part2.swift */; };
 		91FE559F257D5BF100A0E42D /* 02-part1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FE559E257D5BF100A0E42D /* 02-part1.swift */; };
 		91FE55A6257D622500A0E42D /* 02-part2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FE55A5257D622500A0E42D /* 02-part2.swift */; };
+		91FE55AC257DC12C00A0E42D /* 03-part1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FE55AB257DC12C00A0E42D /* 03-part1.swift */; };
+		91FE55B0257DC3F900A0E42D /* 03-part2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FE55AF257DC3F900A0E42D /* 03-part2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +36,9 @@
 		91FE559D257D5BF100A0E42D /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		91FE559E257D5BF100A0E42D /* 02-part1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "02-part1.swift"; sourceTree = "<group>"; };
 		91FE55A5257D622500A0E42D /* 02-part2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "02-part2.swift"; sourceTree = "<group>"; };
+		91FE55AA257DC12C00A0E42D /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		91FE55AB257DC12C00A0E42D /* 03-part1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "03-part1.swift"; sourceTree = "<group>"; };
+		91FE55AF257DC3F900A0E42D /* 03-part2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "03-part2.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +73,7 @@
 			children = (
 				91FE5593257D551500A0E42D /* 01 */,
 				91FE559C257D5BF100A0E42D /* 02 */,
+				91FE55A9257DC12C00A0E42D /* 03 */,
 				91FE5590257D551500A0E42D /* Advent Of Code 2020.xcodeproj */,
 			);
 			name = 2020;
@@ -96,6 +102,16 @@
 				91FE559D257D5BF100A0E42D /* input.txt */,
 			);
 			path = 02;
+			sourceTree = "<group>";
+		};
+		91FE55A9257DC12C00A0E42D /* 03 */ = {
+			isa = PBXGroup;
+			children = (
+				91FE55AB257DC12C00A0E42D /* 03-part1.swift */,
+				91FE55AF257DC3F900A0E42D /* 03-part2.swift */,
+				91FE55AA257DC12C00A0E42D /* input.txt */,
+			);
+			path = 03;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +177,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91FE55B0257DC3F900A0E42D /* 03-part2.swift in Sources */,
+				91FE55AC257DC12C00A0E42D /* 03-part1.swift in Sources */,
 				91FE559F257D5BF100A0E42D /* 02-part1.swift in Sources */,
 				91FE55A6257D622500A0E42D /* 02-part2.swift in Sources */,
 				91FE5596257D551500A0E42D /* 01-part1.swift in Sources */,
