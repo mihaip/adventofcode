@@ -43,6 +43,9 @@
 		91054648257E0FDC00662437 /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		91054649257E0FDC00662437 /* 06-part1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "06-part1.swift"; sourceTree = "<group>"; };
 		9105464C257E10B300662437 /* 06-part2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "06-part2.swift"; sourceTree = "<group>"; };
+		91AD970E257F41E300210B8F /* 08-part1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "08-part1.swift"; sourceTree = "<group>"; };
+		91AD970F257F41E300210B8F /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		91AD9711257F45B800210B8F /* 08-part2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "08-part2.swift"; sourceTree = "<group>"; };
 		91FE5574257D529F00A0E42D /* Advent Of Code 2020 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Advent Of Code 2020"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91FE5590257D551500A0E42D /* Advent Of Code 2020.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Advent Of Code 2020.xcodeproj"; sourceTree = "<group>"; };
 		91FE5594257D551500A0E42D /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
@@ -92,6 +95,16 @@
 			path = 06;
 			sourceTree = "<group>";
 		};
+		91AD970D257F41E300210B8F /* 08 */ = {
+			isa = PBXGroup;
+			children = (
+				91AD970E257F41E300210B8F /* 08-part1.swift */,
+				91AD9711257F45B800210B8F /* 08-part2.swift */,
+				91AD970F257F41E300210B8F /* input.txt */,
+			);
+			path = 08;
+			sourceTree = "<group>";
+		};
 		91FE556B257D529F00A0E42D = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +131,7 @@
 				9105463E257E095D00662437 /* 05 */,
 				91054647257E0FDC00662437 /* 06 */,
 				91FE55B3257DF15400A0E42D /* 07 */,
+				91AD970D257F41E300210B8F /* 08 */,
 				91FE5590257D551500A0E42D /* Advent Of Code 2020.xcodeproj */,
 			);
 			name = 2020;
