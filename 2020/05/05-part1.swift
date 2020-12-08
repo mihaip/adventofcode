@@ -2,7 +2,7 @@
 
 import Foundation
 
-func walk(_ sequence: ArraySlice<String>, _ low: String, _ high: String, _ min: Int, _ max: Int) -> Int {
+fileprivate func walk(_ sequence: ArraySlice<String>, _ low: String, _ high: String, _ min: Int, _ max: Int) -> Int {
     var curMin = min
     var curMax = max
     var mid = -1
