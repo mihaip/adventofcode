@@ -26,6 +26,9 @@
 		91054648257E0FDC00662437 /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		91054649257E0FDC00662437 /* 06-part1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "06-part1.swift"; sourceTree = "<group>"; };
 		9105464C257E10B300662437 /* 06-part2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "06-part2.swift"; sourceTree = "<group>"; };
+		91840991258091850052CBFD /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		91840992258091850052CBFD /* 09-part1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "09-part1.swift"; sourceTree = "<group>"; };
+		91840993258091850052CBFD /* 09-part2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "09-part2.swift"; sourceTree = "<group>"; };
 		91AD970E257F41E300210B8F /* 08-part1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "08-part1.swift"; sourceTree = "<group>"; };
 		91AD970F257F41E300210B8F /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		91AD9711257F45B800210B8F /* 08-part2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "08-part2.swift"; sourceTree = "<group>"; };
@@ -78,6 +81,16 @@
 			path = 06;
 			sourceTree = "<group>";
 		};
+		91840990258091850052CBFD /* 09 */ = {
+			isa = PBXGroup;
+			children = (
+				91840991258091850052CBFD /* input.txt */,
+				91840992258091850052CBFD /* 09-part1.swift */,
+				91840993258091850052CBFD /* 09-part2.swift */,
+			);
+			path = 09;
+			sourceTree = "<group>";
+		};
 		91AD970D257F41E300210B8F /* 08 */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +128,7 @@
 				91054647257E0FDC00662437 /* 06 */,
 				91FE55B3257DF15400A0E42D /* 07 */,
 				91AD970D257F41E300210B8F /* 08 */,
+				91840990258091850052CBFD /* 09 */,
 				91FE5590257D551500A0E42D /* Advent Of Code 2020.xcodeproj */,
 			);
 			name = 2020;
