@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		910EADE52585DFF00006532C /* 13-part1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910EADE42585DF900006532C /* 13-part1.swift */; };
+		910EADE72585E2980006532C /* 13-part2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910EADE32585DF900006532C /* 13-part2.swift */; };
 		9133C6872581E29F00999A16 /* 10-part1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9133C6852581E29300999A16 /* 10-part1.swift */; };
 		9133C6892581E2A100999A16 /* 10-part2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9133C6862581E29300999A16 /* 10-part2.swift */; };
 		91EA390B258488A100CEB96B /* 12-part2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EA39082584889700CEB96B /* 12-part2.swift */; };
@@ -32,6 +34,9 @@
 		91054648257E0FDC00662437 /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		91054649257E0FDC00662437 /* 06-part1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "06-part1.swift"; sourceTree = "<group>"; };
 		9105464C257E10B300662437 /* 06-part2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "06-part2.swift"; sourceTree = "<group>"; };
+		910EADE22585DF900006532C /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		910EADE32585DF900006532C /* 13-part2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "13-part2.swift"; sourceTree = "<group>"; };
+		910EADE42585DF900006532C /* 13-part1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "13-part1.swift"; sourceTree = "<group>"; };
 		9133C6842581E29300999A16 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		9133C6852581E29300999A16 /* 10-part1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "10-part1.swift"; sourceTree = "<group>"; };
 		9133C6862581E29300999A16 /* 10-part2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "10-part2.swift"; sourceTree = "<group>"; };
@@ -94,6 +99,16 @@
 				91054648257E0FDC00662437 /* input.txt */,
 			);
 			path = 06;
+			sourceTree = "<group>";
+		};
+		910EADE12585DF900006532C /* 13 */ = {
+			isa = PBXGroup;
+			children = (
+				910EADE42585DF900006532C /* 13-part1.swift */,
+				910EADE32585DF900006532C /* 13-part2.swift */,
+				910EADE22585DF900006532C /* input.txt */,
+			);
+			path = 13;
 			sourceTree = "<group>";
 		};
 		9133C6832581E29300999A16 /* 10 */ = {
@@ -177,6 +192,7 @@
 				9133C6832581E29300999A16 /* 10 */,
 				91EA38692583354E00CEB96B /* 11 */,
 				91EA39072584889700CEB96B /* 12 */,
+				910EADE12585DF900006532C /* 13 */,
 				91FE5590257D551500A0E42D /* Advent Of Code 2020.xcodeproj */,
 			);
 			name = 2020;
@@ -302,7 +318,9 @@
 			files = (
 				9133C6892581E2A100999A16 /* 10-part2.swift in Sources */,
 				9133C6872581E29F00999A16 /* 10-part1.swift in Sources */,
+				910EADE52585DFF00006532C /* 13-part1.swift in Sources */,
 				91EA390B258488A100CEB96B /* 12-part2.swift in Sources */,
+				910EADE72585E2980006532C /* 13-part2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
