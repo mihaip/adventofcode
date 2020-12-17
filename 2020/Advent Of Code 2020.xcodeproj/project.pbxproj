@@ -35,6 +35,12 @@
 		915568C225887C280073A4B4 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		915568C325887C280073A4B4 /* 15-part1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15-part1.swift"; sourceTree = "<group>"; };
 		915568C425887C280073A4B4 /* 15-part2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15-part2.swift"; sourceTree = "<group>"; };
+		9178942B2589CCA600E57F7E /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		9178942C2589CCA600E57F7E /* 16-part1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "16-part1.swift"; sourceTree = "<group>"; };
+		9178942D2589CCA600E57F7E /* 16-part2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "16-part2.swift"; sourceTree = "<group>"; };
+		917D10B4258B1F14004793A8 /* 17-part2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "17-part2.swift"; sourceTree = "<group>"; };
+		917D10B5258B1F14004793A8 /* 17-part1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "17-part1.swift"; sourceTree = "<group>"; };
+		917D10B6258B1F14004793A8 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		91840991258091850052CBFD /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		91840992258091850052CBFD /* 09-part1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "09-part1.swift"; sourceTree = "<group>"; };
 		91840993258091850052CBFD /* 09-part2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "09-part2.swift"; sourceTree = "<group>"; };
@@ -129,6 +135,26 @@
 			path = 15;
 			sourceTree = "<group>";
 		};
+		9178942A2589CCA600E57F7E /* 16 */ = {
+			isa = PBXGroup;
+			children = (
+				9178942B2589CCA600E57F7E /* input.txt */,
+				9178942C2589CCA600E57F7E /* 16-part1.swift */,
+				9178942D2589CCA600E57F7E /* 16-part2.swift */,
+			);
+			path = 16;
+			sourceTree = "<group>";
+		};
+		917D10B3258B1F14004793A8 /* 17 */ = {
+			isa = PBXGroup;
+			children = (
+				917D10B5258B1F14004793A8 /* 17-part1.swift */,
+				917D10B4258B1F14004793A8 /* 17-part2.swift */,
+				917D10B6258B1F14004793A8 /* input.txt */,
+			);
+			path = 17;
+			sourceTree = "<group>";
+		};
 		91840990258091850052CBFD /* 09 */ = {
 			isa = PBXGroup;
 			children = (
@@ -213,6 +239,8 @@
 				910EADE12585DF900006532C /* 13 */,
 				91F653F6258728DE00DB0581 /* 14 */,
 				915568C125887C280073A4B4 /* 15 */,
+				9178942A2589CCA600E57F7E /* 16 */,
+				917D10B3258B1F14004793A8 /* 17 */,
 				91FE5590257D551500A0E42D /* Advent Of Code 2020.xcodeproj */,
 			);
 			name = 2020;
