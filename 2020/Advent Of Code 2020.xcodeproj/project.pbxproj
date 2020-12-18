@@ -6,6 +6,11 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		91FD5C6D258C6FF1001E6901 /* 18-part1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FD5C6A258C6FE5001E6901 /* 18-part1.swift */; };
+		91FD5C6F258C8A81001E6901 /* 18-part2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FD5C6B258C6FE5001E6901 /* 18-part2.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		91FE5572257D529F00A0E42D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -56,6 +61,9 @@
 		91F653F7258728DE00DB0581 /* 14-part1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "14-part1.swift"; sourceTree = "<group>"; };
 		91F653F8258728DE00DB0581 /* 14-part2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "14-part2.swift"; sourceTree = "<group>"; };
 		91F653FB25872A7100DB0581 /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		91FD5C6A258C6FE5001E6901 /* 18-part1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "18-part1.swift"; sourceTree = "<group>"; };
+		91FD5C6B258C6FE5001E6901 /* 18-part2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "18-part2.swift"; sourceTree = "<group>"; };
+		91FD5C6C258C6FE5001E6901 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		91FE5574257D529F00A0E42D /* Advent Of Code 2020 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Advent Of Code 2020"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91FE5590257D551500A0E42D /* Advent Of Code 2020.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Advent Of Code 2020.xcodeproj"; sourceTree = "<group>"; };
 		91FE5594257D551500A0E42D /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
@@ -205,6 +213,16 @@
 			path = 14;
 			sourceTree = "<group>";
 		};
+		91FD5C69258C6FE5001E6901 /* 18 */ = {
+			isa = PBXGroup;
+			children = (
+				91FD5C6A258C6FE5001E6901 /* 18-part1.swift */,
+				91FD5C6B258C6FE5001E6901 /* 18-part2.swift */,
+				91FD5C6C258C6FE5001E6901 /* input.txt */,
+			);
+			path = 18;
+			sourceTree = "<group>";
+		};
 		91FE556B257D529F00A0E42D = {
 			isa = PBXGroup;
 			children = (
@@ -241,6 +259,7 @@
 				915568C125887C280073A4B4 /* 15 */,
 				9178942A2589CCA600E57F7E /* 16 */,
 				917D10B3258B1F14004793A8 /* 17 */,
+				91FD5C69258C6FE5001E6901 /* 18 */,
 				91FE5590257D551500A0E42D /* Advent Of Code 2020.xcodeproj */,
 			);
 			name = 2020;
@@ -364,6 +383,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91FD5C6F258C8A81001E6901 /* 18-part2.swift in Sources */,
+				91FD5C6D258C6FF1001E6901 /* 18-part1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
