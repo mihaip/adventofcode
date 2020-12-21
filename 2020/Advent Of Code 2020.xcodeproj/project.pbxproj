@@ -10,6 +10,7 @@
 		916602B1258FCF67007BF66B /* 20-part1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916602AD258FCED4007BF66B /* 20-part1.swift */; };
 		916602B725906667007BF66B /* 21-part2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916602B525906667007BF66B /* 21-part2.swift */; };
 		916602B825906667007BF66B /* 21-part1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916602B625906667007BF66B /* 21-part1.swift */; };
+		916602BC25907EBB007BF66B /* 20-part2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916602AC258FCED4007BF66B /* 20-part2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +51,7 @@
 		916602B425906667007BF66B /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		916602B525906667007BF66B /* 21-part2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "21-part2.swift"; sourceTree = "<group>"; };
 		916602B625906667007BF66B /* 21-part1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "21-part1.swift"; sourceTree = "<group>"; };
+		916602BB25907A3D007BF66B /* image.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = image.txt; sourceTree = "<group>"; };
 		9178942B2589CCA600E57F7E /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		9178942C2589CCA600E57F7E /* 16-part1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "16-part1.swift"; sourceTree = "<group>"; };
 		9178942D2589CCA600E57F7E /* 16-part2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "16-part2.swift"; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 				916602AD258FCED4007BF66B /* 20-part1.swift */,
 				916602AC258FCED4007BF66B /* 20-part2.swift */,
 				916602AE258FCED4007BF66B /* input.txt */,
+				916602BB25907A3D007BF66B /* image.txt */,
 			);
 			path = 20;
 			sourceTree = "<group>";
@@ -427,6 +430,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				916602B725906667007BF66B /* 21-part2.swift in Sources */,
+				916602BC25907EBB007BF66B /* 20-part2.swift in Sources */,
 				916602B825906667007BF66B /* 21-part1.swift in Sources */,
 				916602B1258FCF67007BF66B /* 20-part1.swift in Sources */,
 			);

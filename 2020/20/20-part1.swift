@@ -206,6 +206,27 @@ fileprivate func main() {
             let bl = firstPickedTiles[IMAGE_SIZE - 1][0].id
             let br = firstPickedTiles[IMAGE_SIZE - 1][IMAGE_SIZE - 1].id
             print("answer", tl * tr * bl * br)
+
+            print("image")
+            var image = Array(repeating: Array(repeating: "", count: IMAGE_SIZE * (TILE_SIZE - 2)), count: IMAGE_SIZE * (TILE_SIZE - 2))
+            for (tY, tileRow) in firstPickedTiles.enumerated() {
+                for (tX, tile) in tileRow.enumerated() {
+                    for (y, row) in tile.data.enumerated() {
+                        if y == 0 || y == TILE_SIZE - 1 {
+                            continue
+                        }
+                        for (x, pixel) in row.enumerated() {
+                            if x == 0 || x == TILE_SIZE - 1 {
+                                continue
+                            }
+                            image[tY * (TILE_SIZE - 2) + y - 1][tX * (TILE_SIZE - 2) + x - 1] = pixel
+                        }
+                    }
+                }
+            }
+            for line in image {
+                print(line.joined())
+            }
             break
         }
     }
