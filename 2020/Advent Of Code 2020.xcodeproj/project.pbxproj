@@ -6,6 +6,10 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		91D1190525966CA8002E06EE /* 25-part1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D1190325966C9B002E06EE /* 25-part1.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		91FE5572257D529F00A0E42D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -63,6 +67,8 @@
 		91AD970E257F41E300210B8F /* 08-part1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "08-part1.swift"; sourceTree = "<group>"; };
 		91AD970F257F41E300210B8F /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		91AD9711257F45B800210B8F /* 08-part2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "08-part2.swift"; sourceTree = "<group>"; };
+		91D1190325966C9B002E06EE /* 25-part1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "25-part1.swift"; sourceTree = "<group>"; };
+		91D1190425966C9B002E06EE /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		91EA386A2583354E00CEB96B /* 11-part1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11-part1.swift"; sourceTree = "<group>"; };
 		91EA386B2583354E00CEB96B /* 11-part2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11-part2.swift"; sourceTree = "<group>"; };
 		91EA386C2583354E00CEB96B /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
@@ -248,6 +254,15 @@
 			path = 08;
 			sourceTree = "<group>";
 		};
+		91D1190125966C9B002E06EE /* 25 */ = {
+			isa = PBXGroup;
+			children = (
+				91D1190325966C9B002E06EE /* 25-part1.swift */,
+				91D1190425966C9B002E06EE /* input.txt */,
+			);
+			path = 25;
+			sourceTree = "<group>";
+		};
 		91EA38692583354E00CEB96B /* 11 */ = {
 			isa = PBXGroup;
 			children = (
@@ -341,6 +356,7 @@
 				91F00E1B2591B61300B8F800 /* 22 */,
 				9171FC7B25930AE200B4AF9B /* 23 */,
 				9171FC8325945E8100B4AF9B /* 24 */,
+				91D1190125966C9B002E06EE /* 25 */,
 				91FE5590257D551500A0E42D /* Advent Of Code 2020.xcodeproj */,
 			);
 			name = 2020;
@@ -464,6 +480,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91D1190525966CA8002E06EE /* 25-part1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
